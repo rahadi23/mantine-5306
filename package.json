@@ -1,0 +1,58 @@
+{
+  "name": "mantine-5306",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "peerDependencies": {
+    "@mantine/core": "^7.11.2",
+    "@mantinex/mantine-logo": "^1.0.1",
+    "dayjs": "1.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@mantine/core": "^7.11.2",
+    "@mantinex/mantine-logo": "^1.0.1",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@tabler/icons-react": "^3.11.0",
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.3",
+    "dayjs": "1.11.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "7.35.0",
+    "prettier": "^3.3.3",
+    "prettier-eslint": "^16.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.19.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-node-externals": "^7.1.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5",
+    "typescript-plugin-css-modules": "^5.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/cjs",
+    "dist/esm",
+    "index.d.ts"
+  ]
+}
